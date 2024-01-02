@@ -19,12 +19,12 @@ public class DaniaVegetarianskie extends Danie{
     }
 
     @Override
-    public String toString() {
-        return "DaniaVegetarianskie{" +
+    public void display() {
+        System.out.println("DaniaVegetarianskie{" +
                 "nazwa='" + getNazwa() + '\'' +
                 ", cena=" + getCena() +
                 ", komponenty='" + getKomponenty() + '\'' +
                 "meatType='" + meatType + '\'' +
-                '}';
+                '}');
     }
 }

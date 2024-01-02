@@ -20,12 +20,12 @@ public class DaniaMiesne extends Danie{
     }
 
     @Override
-    public String toString() {
-        return "DaniaMiesne{" +
+    public void display() {
+        System.out.println( "DaniaMiesne{" +
                 "nazwa='" + getNazwa() + '\'' +
                 ", cena=" + getCena() +
                 ", komponenty='" + getKomponenty() + '\'' +
                 "meatType='" + meatType + '\'' +
-                '}';
+                '}');
     }
 }

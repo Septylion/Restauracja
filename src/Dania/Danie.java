@@ -22,13 +22,14 @@ public abstract class Danie {
     }
 
 
-    @Override
-    public String toString() {
-        return "Danie{" +
+
+    public void display() {
+        System.out.println("Danie{" +
                 "nazwa='" + nazwa + '\'' +
                 ", cena=" + cena +
                 ", komponenty='" + komponenty + '\'' +
-                '}';
+                '}'
+        );
     }
 
     public String getNazwa() {
@@ -39,7 +40,7 @@ public abstract class Danie {
         return cena;
     }
 
-    public String getKomponenty() {
-        return komponenty;
+    public  List<String>  getKomponenty() {
+        return  komponenty;
     }
 }
